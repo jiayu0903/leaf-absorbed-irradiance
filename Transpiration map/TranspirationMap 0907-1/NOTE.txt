@@ -1,0 +1,10 @@
+Folder “0907tomato” is used to determine the k value. k=630
+
+file create time 	 ‏‎4:25:33 PM
+thermal camera time	 2:48:45 PM
+	
+light switch on time	4:41:00 PM
+light switch on time(thermal camera time)	3:04:12 PM
+
+The total expriment lasted for 27 min, starting with 10 min constant light period, then 5 min dark period, and then 12 min light pulse (30s light pulse followed by 3.5 min darkness). 
+
