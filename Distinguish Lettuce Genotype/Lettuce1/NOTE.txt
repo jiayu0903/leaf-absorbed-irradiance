@@ -1,11 +1,4 @@
 The dark green genotype with curl leaf shape has higher light absoptance around 0.80，and k value is around 1080
 The light green genotype with flat leaf shape has lower light absorptance around 0.71, and k value is around 880
-
 The incoming light irradiance in the central area of both lettuce genotypes is around 410 W m-2
 
-thermal camrea starting time: 5：56：30 PM
-file creat time: ‏‎7:33:19 PM
-
-thermal camera light on time :5:58:09 PM
-
-light on time: 7:35:00 PM
