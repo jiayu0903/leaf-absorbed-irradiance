@@ -3,9 +3,3 @@ The light green genotype with flat leaf shape has lower light absorptance around
 
 The incoming light irradiance in the central area of both lettuce genotypes is around 410 W m-2
 
-thermal camrea starting time: 5：56：30 PM
-file creat time: ‏‎7:33:19 PM
-
-thermal camera light on time :5:58:09 PM
-
-light on time: 7:35:00 PM
