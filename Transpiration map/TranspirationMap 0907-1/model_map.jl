@@ -80,7 +80,19 @@ end
 
 # Load thermograms
 function Load_temps()
-    # List all CSV files
+    # Build a mask
+ img = load("Mask1.bmp")
+ s = size(img)
+ target_height, target_width = 480, 640
+ # Resize the image and fill the pixels using the interpolation method
+ resized_img = imresize(img, (target_height, target_width))
+ tmp = Gray.(resized_img)
+ mask = tmp .> 0.0
+ s = size(mask)
+ maskr = reshape(mask, s[1] * s[2], 1)
+    
+ # List all CSV files
+    
     files = readdir("CSV"; join = true)
     FN = [split(x[6], ".")[1] for x in split.(files, "_")]
     ID = div.(parse.(Int64, FN) .+ 1, 16)
@@ -108,7 +120,7 @@ function Load_temps()
         df = CSV.File(files[pos[i]], skipto=7, header=false) |> Tables.matrix
 
         ts[i] = t
-        data[:,i] = reshape(df, s[1] * s[2], 1)
+        data[:,i] = reshape(df, s[1] * s[2], 1).* maskr
     end
 
     ts .-= ts[1] + 25.0
