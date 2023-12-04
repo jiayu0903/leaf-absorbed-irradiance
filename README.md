@@ -17,7 +17,7 @@ This repository contains processed environmental data and leaf temperature data,
 
 "Distinguish Lettuce Genotype" folder: Contains raw data and scripts for distinguishing between two lettuce genotypes based on their light map (light distribution). Data for four repetitions is provided.
 
-# Large files link
+# Link for large files 
 
 To facilitate access and due to the large size of some original files, particularly the thermal time-lapse videos used for extracting raw temperature information, they are uploaded separately. You can find these files in the following link
 
